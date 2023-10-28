@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,900;1,700&display=swap');
+
+body {
+    top: 0;
+    background: #000;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.banner-content button {
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #31A8DD;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    border: 2px solid #3BA1CD;
+    display: flex;
+    width: 326px;
+    padding: 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+
+
+.banner-content {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(49, 169, 221, 0.137) 0%, rgba(0, 0, 0, 0.60) 100%);
+    display: inline-flex;
+    gap: 16px;
+}
+
+.banner-content p {
+    max-width: 40%;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner {
+    background: url(assets/images/banner.png), rgba(211, 211, 211, 0.062) 50% / cover no-repeat;
+}
+
+#course-content h2 {
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+
+#course-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 70%;
+
+}
+
+
+
+#course-content {
+    margin: 5% 0;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+
+
+
+.module {
+    margin-bottom: 1.5rem;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 535px;
+    padding: 16px 127px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.module span {
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#transform-world {
+    width: 100%;
+    height: 400px;
+    flex-shrink: 0;
+    background: url(./assets/images/woman-code.png) 50% / cover no-repeat;
+    background-size: 130%;
+    background-position: center;
+    border: 1px solid #33A8DB;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+#transform-world p {
+    color: #FFF;
+    max-width: 17%;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 180%;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    align-items: left;
+    padding: 0 0 0 10%;
+
+
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+#professional-challenges h2 {
+    text-transform: uppercase;
+    max-width: 50%;
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+
+footer {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer a {
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 80px;
+    }
+
+
+    button {
+        width: 326px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    #transform-world {
+
+        background-size: 100%;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    button {
+        width: 226px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content {
+
+        gap: 16px;
+    }
+
+    .banner {
+
+        background-size: 120%;
+    }
+
+    #transform-world {
+
+
+        padding: 0 0 0 10%;
+    }
+
+}
